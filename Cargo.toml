@@ -1,0 +1,17 @@
+[package]
+name = "bitoku-worker"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solana-sdk = "1.14.13"
+anchor-client = "0.26.0"
+solana-client = "1.14.13"
+tokio = "1.25.0"
+anyhow = "1.0.68"
+futures-util = "0.3.19"
+solana-transaction-status = "1.15.0"
+serde_json = "1.0.92"
+bitoku-sdk-agent-native = {path ="../bitoku-sdk-agent"}
